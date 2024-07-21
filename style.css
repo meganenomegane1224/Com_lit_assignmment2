@@ -7,6 +7,10 @@
     background-attachment: fixed;
 }
 
+.back_img2{
+    background-image: url(image/haikei.jpg);
+}
+
 .heder{display: grid; width: 100vw; height: 15vh;
 grid-template-areas: "a b c";
 grid-template-columns: 1fr 25vw 25vw;
@@ -25,10 +29,10 @@ a{
     width: 60vh;
 }
 .h2_a_img{
-    width: 25vh;
+    width: 30vh;
 }
 .h3_a_img{
-    width: 17vh;
+    width: 23vh;
 }
 .h1{grid-area: a;
     text-align: center;
@@ -136,6 +140,7 @@ a{
 
 .c_li_1{
     grid-area: a;
+    padding: ;
 }
 .c_li_2{
     grid-area: b;
@@ -157,9 +162,29 @@ text-align: center;
 
 .c_li_img{
     height: 75%;
-    ;
+    margin-bottom: 9vh;
 }
 
-.back_img_2{
-    
+.chara_title_h1{
+    font-size: 3.2vw;
 }
+
+.chara_name{
+    font-size: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    color: white;
+    font-weight: bold;
+}
+
+.chara_box{
+    margin: 0 auto;
+    color: #FFF;
+        background: rgba(168, 44, 63, 0.8);
+        border-bottom: solid 14px rgba(233, 40, 66, 0.7);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+        border-radius: 70px;
+    height: 45vh;
+    width: 23vw;
+}
+
