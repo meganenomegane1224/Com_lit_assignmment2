@@ -564,3 +564,13 @@ h2{
     width: 88%;
     height: 97%;
 }
+
+.a_first{
+    font-size: 5vh;
+}
+.p_first{
+    color: red;
+}
+.h2_first{
+    text-align: left;
+}
