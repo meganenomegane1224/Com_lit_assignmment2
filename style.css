@@ -475,9 +475,10 @@ h2{
 
 
 .s_name{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-bottom: -0.001vh;
     padding: 1vh;
+    padding-top: 3vh;
 }
 
 .s_img{
@@ -560,6 +561,6 @@ h2{
     border-bottom: solid 14px rgba(238, 24, 78, 0.9);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
     border-radius: 70px;
-    width: 83%;
+    width: 88%;
     height: 97%;
 }
